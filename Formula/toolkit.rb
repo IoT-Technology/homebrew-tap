@@ -5,7 +5,7 @@ class Toolkit < Formula
   desc "Toolkit is a IoT protocol client CLI for IoT developer and learners. CoAP and MQTT protocol are currently supported. It supports colors, autocompletion, internationalization(chinese, english and german…) and multi-platforms"
   homepage "https://github.com/IoT-Technology/IoT-Toolkit"
   url "https://github.com/IoT-Technology/IoT-Toolkit/releases/download/0.6.0/toolkit-0.6.0-osx-x86_64.zip"
-  sha256 "501b99d338b43568306a714773d529ae9be7bc4892970f25ced6ea58dd11f291"
+  sha256 "a65840afa2314a38003b71ce032ffa088d354fc85b5fa293b88c6a9525f74bf2"
   license "Apache-2.0"
   version "0.6.0"
 
