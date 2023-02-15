@@ -4,10 +4,10 @@
 class Toolkit < Formula
   desc "Toolkit is a IoT protocol client CLI for IoT developer and learners. CoAP、MQTT and NB-IoT protocol are currently supported. It supports colors, autocompletion, internationalization(chinese, english and german…) and multi-platforms"
   homepage "https://github.com/IoT-Technology/IoT-Toolkit"
-  url "https://github.com/IoT-Technology/IoT-Toolkit/releases/download/0.6.3/toolkit-0.6.3-osx-x86_64.zip"
-  sha256 "04decab2da0518c89fb29a6622a21f93ffe78e8a955ed037faf64ff5f8ec58b1"
+  url "https://github.com/IoT-Technology/IoT-Toolkit/releases/download/0.6.4/toolkit-0.6.4-osx-x86_64.zip"
+  sha256 "57915ae2e15ab4af6cc681c9b2a01478e50030cd1d6a2cc544906e61f6487d81"
   license "Apache-2.0"
-  version "0.6.3"
+  version "0.6.4"
 
   # depends_on "cmake" => :build
 
@@ -21,6 +21,6 @@ class Toolkit < Formula
 
   test do
     output = shell_output("#{bin}/toolkit --version")
-    assert_match "toolkit/v0.6.3", output
+    assert_match "toolkit/v0.6.4", output
   end
 end
